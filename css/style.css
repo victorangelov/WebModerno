@@ -18,7 +18,7 @@ h2 {
 img.isplayed {
     margin-left: auto;
     margin-right: auto;
-    display: block;
+    
 
 }
 
@@ -32,4 +32,9 @@ a{
 
 strong {
     font-size: 16pt;
+}
+
+section {
+    margin-left: auto;
+    margin-right: auto;
 }
