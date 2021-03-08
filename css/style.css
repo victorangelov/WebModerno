@@ -1,25 +1,26 @@
 body {
-    background-color: rgb(28, 61, 63);
-    color: cornsilk;
-    font-size: 15pt;
+    background-image: linear-gradient(to right, #2A2E1F, #22251C);
+    font-family: Arial, Helvetica, sans-serif;
 }
-
+main{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px auto;
+    width: 600px;
+    border: 10px
+}
 h1 {
-    text-align: center;  
+    text-align: center; 
+    color: #821C11; 
+    text-shadow: 1px 1px 0px black;
 }
-
-p {
+p{
     text-align: justify;
 }
 
 h2 {
     text-align: center;
-}
-img.isplayed {
-    margin-left: auto;
-    margin-right: auto;
-    
-
 }
 
 h2#contato{
@@ -30,11 +31,13 @@ a{
     color: rgb(129, 86, 139);
 }
 
-strong {
-    font-size: 16pt;
-}
-
-section {
+iframe#video {
     margin-left: auto;
     margin-right: auto;
+    display: block;
+}
+img.isplayed {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
